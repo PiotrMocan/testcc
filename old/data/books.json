@@ -1,0 +1,92 @@
+[
+  {
+    "isbn": "9780132350884",
+    "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "author": "Robert C. Martin",
+    "publication_year": 2008,
+    "total_copies": 5,
+    "available_copies": 4,
+    "genre": "Programming"
+  },
+  {
+    "isbn": "9780321146533",
+    "title": "Test-Driven Development: By Example",
+    "author": "Kent Beck",
+    "publication_year": 2002,
+    "total_copies": 3,
+    "available_copies": 2,
+    "genre": "Programming"
+  },
+  {
+    "isbn": "9780201616224",
+    "title": "The Pragmatic Programmer",
+    "author": "David Thomas, Andrew Hunt",
+    "publication_year": 1999,
+    "total_copies": 4,
+    "available_copies": 3,
+    "genre": "Programming"
+  },
+  {
+    "isbn": "9780134685991",
+    "title": "Effective Java",
+    "author": "Joshua Bloch",
+    "publication_year": 2017,
+    "total_copies": 2,
+    "available_copies": 0,
+    "genre": "Programming"
+  },
+  {
+    "isbn": "9780596517748",
+    "title": "JavaScript: The Good Parts",
+    "author": "Douglas Crockford",
+    "publication_year": 2008,
+    "total_copies": 3,
+    "available_copies": 3,
+    "genre": "Programming"
+  },
+  {
+    "isbn": "9780061120084",
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "publication_year": 1960,
+    "total_copies": 4,
+    "available_copies": 3,
+    "genre": "Fiction"
+  },
+  {
+    "isbn": "9780143127741",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "publication_year": 1925,
+    "total_copies": 3,
+    "available_copies": 3,
+    "genre": "Fiction"
+  },
+  {
+    "isbn": "9780141439518",
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "publication_year": 1813,
+    "total_copies": 2,
+    "available_copies": 2,
+    "genre": "Fiction"
+  },
+  {
+    "isbn": "9780375760891",
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "publication_year": 1988,
+    "total_copies": 2,
+    "available_copies": 1,
+    "genre": "Science"
+  },
+  {
+    "isbn": "9780307887436",
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "publication_year": 2011,
+    "total_copies": 3,
+    "available_copies": 3,
+    "genre": "Psychology"
+  }
+]

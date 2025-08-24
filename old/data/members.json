@@ -1,0 +1,104 @@
+[
+  {
+    "id": "MEM001",
+    "name": "Alice Johnson",
+    "email": "alice.johnson@email.com",
+    "registration_date": "2025-08-24 17:39:02 +0300",
+    "borrowing_history": [
+      {
+        "book_isbn": "9780132350884",
+        "checkout_date": "2025-08-24 17:39:02 +0300",
+        "due_date": "2025-09-07 17:39:02 +0300",
+        "return_date": null
+      },
+      {
+        "book_isbn": "9780134685991",
+        "checkout_date": "2025-08-24 17:39:02 +0300",
+        "due_date": "2025-09-07 17:39:02 +0300",
+        "return_date": null
+      },
+      {
+        "book_isbn": "9780596517748",
+        "checkout_date": "2025-07-25 17:39:02 +0300",
+        "due_date": "2025-08-08 17:39:02 +0300",
+        "return_date": "2025-08-04 17:39:02 +0300"
+      }
+    ]
+  },
+  {
+    "id": "MEM002",
+    "name": "Bob Smith",
+    "email": "bob.smith@email.com",
+    "registration_date": "2025-08-24 17:39:02 +0300",
+    "borrowing_history": [
+      {
+        "book_isbn": "9780321146533",
+        "checkout_date": "2025-08-24 17:39:02 +0300",
+        "due_date": "2025-09-07 17:39:02 +0300",
+        "return_date": null
+      },
+      {
+        "book_isbn": "9780143127741",
+        "checkout_date": "2025-07-30 17:39:02 +0300",
+        "due_date": "2025-08-13 17:39:02 +0300",
+        "return_date": "2025-08-19 17:39:02 +0300"
+      }
+    ]
+  },
+  {
+    "id": "MEM003",
+    "name": "Carol Davis",
+    "email": "carol.davis@email.com",
+    "registration_date": "2025-08-24 17:39:02 +0300",
+    "borrowing_history": [
+      {
+        "book_isbn": "9780201616224",
+        "checkout_date": "2025-08-24 17:39:02 +0300",
+        "due_date": "2025-09-07 17:39:02 +0300",
+        "return_date": null
+      }
+    ]
+  },
+  {
+    "id": "MEM004",
+    "name": "David Wilson",
+    "email": "david.wilson@email.com",
+    "registration_date": "2025-08-24 17:39:02 +0300",
+    "borrowing_history": [
+      {
+        "book_isbn": "9780061120084",
+        "checkout_date": "2025-08-24 17:39:02 +0300",
+        "due_date": "2025-09-07 17:39:02 +0300",
+        "return_date": null
+      }
+    ]
+  },
+  {
+    "id": "MEM005",
+    "name": "Eve Brown",
+    "email": "eve.brown@email.com",
+    "registration_date": "2025-08-24 17:39:02 +0300",
+    "borrowing_history": [
+      {
+        "book_isbn": "9780375760891",
+        "checkout_date": "2025-08-24 17:39:02 +0300",
+        "due_date": "2025-09-07 17:39:02 +0300",
+        "return_date": null
+      }
+    ]
+  },
+  {
+    "id": "MEM006",
+    "name": "Frank Miller",
+    "email": "frank.miller@email.com",
+    "registration_date": "2025-08-24 17:39:02 +0300",
+    "borrowing_history": [
+      {
+        "book_isbn": "9780134685991",
+        "checkout_date": "2025-08-24 17:39:02 +0300",
+        "due_date": "2025-09-07 17:39:02 +0300",
+        "return_date": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "RES_20250824_173902_8437",
+    "book_isbn": "9780134685991",
+    "member_id": "MEM002",
+    "reservation_date": "2025-08-24 17:39:02 +0300",
+    "expiration_date": "2025-08-27 17:39:02 +0300",
+    "fulfilled": false
+  },
+  {
+    "id": "RES_20250824_173902_2462",
+    "book_isbn": "9780134685991",
+    "member_id": "MEM003",
+    "reservation_date": "2025-08-24 17:39:02 +0300",
+    "expiration_date": "2025-08-27 17:39:02 +0300",
+    "fulfilled": false
+  }
+]

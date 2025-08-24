@@ -1,0 +1,28 @@
+# Logfile created on 2025-08-24 17:38:58 +0300 by logger.rb/v1.7.0
+[2025-08-24 17:38:58] INFO: Data loaded from storage
+[2025-08-24 17:39:02] INFO: Data loaded from storage
+[2025-08-24 17:39:02] INFO: Book added - isbn: 9780132350884, title: Clean Code: A Handbook of Agile Software Craftsmanship
+[2025-08-24 17:39:02] INFO: Book added - isbn: 9780321146533, title: Test-Driven Development: By Example
+[2025-08-24 17:39:02] INFO: Book added - isbn: 9780201616224, title: The Pragmatic Programmer
+[2025-08-24 17:39:02] INFO: Book added - isbn: 9780134685991, title: Effective Java
+[2025-08-24 17:39:02] INFO: Book added - isbn: 9780596517748, title: JavaScript: The Good Parts
+[2025-08-24 17:39:02] INFO: Book added - isbn: 9780061120084, title: To Kill a Mockingbird
+[2025-08-24 17:39:02] INFO: Book added - isbn: 9780143127741, title: The Great Gatsby
+[2025-08-24 17:39:02] INFO: Book added - isbn: 9780141439518, title: Pride and Prejudice
+[2025-08-24 17:39:02] INFO: Book added - isbn: 9780375760891, title: A Brief History of Time
+[2025-08-24 17:39:02] INFO: Book added - isbn: 9780307887436, title: Thinking, Fast and Slow
+[2025-08-24 17:39:02] INFO: Member registered - id: MEM001, name: Alice Johnson, email: alice.johnson@email.com
+[2025-08-24 17:39:02] INFO: Member registered - id: MEM002, name: Bob Smith, email: bob.smith@email.com
+[2025-08-24 17:39:02] INFO: Member registered - id: MEM003, name: Carol Davis, email: carol.davis@email.com
+[2025-08-24 17:39:02] INFO: Member registered - id: MEM004, name: David Wilson, email: david.wilson@email.com
+[2025-08-24 17:39:02] INFO: Member registered - id: MEM005, name: Eve Brown, email: eve.brown@email.com
+[2025-08-24 17:39:02] INFO: Member registered - id: MEM006, name: Frank Miller, email: frank.miller@email.com
+[2025-08-24 17:39:02] INFO: Book checked out - member_id: MEM001, isbn: 9780132350884, loan_id: LOAN_20250824_173902_9211
+[2025-08-24 17:39:02] INFO: Book checked out - member_id: MEM002, isbn: 9780321146533, loan_id: LOAN_20250824_173902_8600
+[2025-08-24 17:39:02] INFO: Book checked out - member_id: MEM003, isbn: 9780201616224, loan_id: LOAN_20250824_173902_9164
+[2025-08-24 17:39:02] INFO: Book checked out - member_id: MEM004, isbn: 9780061120084, loan_id: LOAN_20250824_173902_2430
+[2025-08-24 17:39:02] INFO: Book checked out - member_id: MEM005, isbn: 9780375760891, loan_id: LOAN_20250824_173902_5698
+[2025-08-24 17:39:02] INFO: Book checked out - member_id: MEM006, isbn: 9780134685991, loan_id: LOAN_20250824_173902_9962
+[2025-08-24 17:39:02] INFO: Book checked out - member_id: MEM001, isbn: 9780134685991, loan_id: LOAN_20250824_173902_3393
+[2025-08-24 17:39:02] INFO: Book reserved - member_id: MEM002, isbn: 9780134685991, reservation_id: RES_20250824_173902_8437
+[2025-08-24 17:39:02] INFO: Book reserved - member_id: MEM003, isbn: 9780134685991, reservation_id: RES_20250824_173902_2462

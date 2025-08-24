@@ -1,0 +1,58 @@
+[
+  {
+    "id": "LOAN_20250824_173902_9211",
+    "book_isbn": "9780132350884",
+    "member_id": "MEM001",
+    "checkout_date": "2025-08-24 17:39:02 +0300",
+    "due_date": "2025-09-07 17:39:02 +0300",
+    "return_date": null
+  },
+  {
+    "id": "LOAN_20250824_173902_8600",
+    "book_isbn": "9780321146533",
+    "member_id": "MEM002",
+    "checkout_date": "2025-08-24 17:39:02 +0300",
+    "due_date": "2025-09-07 17:39:02 +0300",
+    "return_date": null
+  },
+  {
+    "id": "LOAN_20250824_173902_9164",
+    "book_isbn": "9780201616224",
+    "member_id": "MEM003",
+    "checkout_date": "2025-08-24 17:39:02 +0300",
+    "due_date": "2025-09-07 17:39:02 +0300",
+    "return_date": null
+  },
+  {
+    "id": "LOAN_20250824_173902_2430",
+    "book_isbn": "9780061120084",
+    "member_id": "MEM004",
+    "checkout_date": "2025-08-24 17:39:02 +0300",
+    "due_date": "2025-09-07 17:39:02 +0300",
+    "return_date": null
+  },
+  {
+    "id": "LOAN_20250824_173902_5698",
+    "book_isbn": "9780375760891",
+    "member_id": "MEM005",
+    "checkout_date": "2025-08-24 17:39:02 +0300",
+    "due_date": "2025-09-07 17:39:02 +0300",
+    "return_date": null
+  },
+  {
+    "id": "LOAN_20250824_173902_9962",
+    "book_isbn": "9780134685991",
+    "member_id": "MEM006",
+    "checkout_date": "2025-08-24 17:39:02 +0300",
+    "due_date": "2025-09-07 17:39:02 +0300",
+    "return_date": null
+  },
+  {
+    "id": "LOAN_20250824_173902_3393",
+    "book_isbn": "9780134685991",
+    "member_id": "MEM001",
+    "checkout_date": "2025-08-24 17:39:02 +0300",
+    "due_date": "2025-09-07 17:39:02 +0300",
+    "return_date": null
+  }
+]
