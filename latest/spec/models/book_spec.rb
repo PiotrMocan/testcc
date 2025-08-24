@@ -104,7 +104,7 @@ RSpec.describe Book do
       end
 
       it 'raises error when trying to return more than total' do
-        2.times { book.return_copy }
+        book.return_copy  # First return should work (2->3 available)
         expect { book.return_copy }.to raise_error(StandardError, "Cannot return more copies than total")
       end
     end

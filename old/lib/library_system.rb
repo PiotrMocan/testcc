@@ -127,12 +127,13 @@ class LibrarySystem
       loan = @loans.find { |l| l.member_id == member_id && l.book_isbn == isbn && l.active? }
       raise "No active loan found for this book and member" unless loan
       
+      late_fee = loan.late_fee(return_date)
+      days_overdue = loan.days_overdue(return_date)
+      
       loan.return_book(return_date)
       book.return_book
       
       member.borrowing_history.find { |h| h[:book_isbn] == isbn && h[:return_date].nil? }[:return_date] = return_date
-      
-      late_fee = loan.late_fee(return_date)
       
       process_next_reservation(isbn)
       
@@ -140,11 +141,11 @@ class LibrarySystem
         member_id: member_id, 
         isbn: isbn, 
         late_fee: late_fee,
-        days_overdue: loan.days_overdue(return_date)
+        days_overdue: days_overdue
       })
       
       save_data
-      { late_fee: late_fee, days_overdue: loan.days_overdue(return_date) }
+      { late_fee: late_fee, days_overdue: days_overdue }
     rescue => e
       @logger.log_error("Return book", e)
       raise e

@@ -8,11 +8,13 @@ class Member
   def initialize(id:, name:, email:, registration_date: Time.now)
     raise ArgumentError, "ID cannot be empty" if id.nil? || id.to_s.strip.empty?
     raise ArgumentError, "Name cannot be empty" if name.nil? || name.strip.empty?
-    raise ArgumentError, "Invalid email format" unless valid_email?(email)
+    
+    cleaned_email = email.strip.downcase
+    raise ArgumentError, "Invalid email format" unless valid_email?(cleaned_email)
 
     @id = id
     @name = name.strip
-    @email = email.strip.downcase
+    @email = cleaned_email
     @registration_date = registration_date.is_a?(Time) ? registration_date : Time.parse(registration_date)
     @borrowing_history = []
   end

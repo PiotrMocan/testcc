@@ -1,4 +1,5 @@
 require_relative '../modules/validator'
+require 'date'
 
 class Book
   attr_accessor :isbn, :title, :author, :publication_year, :total_copies, :available_copies, :genre
@@ -25,7 +26,7 @@ class Book
   end
 
   def return_copy
-    raise StandardError, "Cannot return more copies than total" if @available_copies >= @total_copies
+    raise StandardError, "Cannot return more copies than total" if (@available_copies + 1) > @total_copies
     @available_copies += 1
   end
 
@@ -60,13 +61,13 @@ class Book
 
   def self.from_hash(hash)
     book = allocate
-    book.instance_variable_set(:@isbn, hash['isbn'])
-    book.instance_variable_set(:@title, hash['title'])
-    book.instance_variable_set(:@author, hash['author'])
-    book.instance_variable_set(:@publication_year, hash['publication_year'])
-    book.instance_variable_set(:@total_copies, hash['total_copies'])
-    book.instance_variable_set(:@available_copies, hash['available_copies'])
-    book.instance_variable_set(:@genre, hash['genre'])
+    book.instance_variable_set(:@isbn, hash[:isbn] || hash['isbn'])
+    book.instance_variable_set(:@title, hash[:title] || hash['title'])
+    book.instance_variable_set(:@author, hash[:author] || hash['author'])
+    book.instance_variable_set(:@publication_year, hash[:publication_year] || hash['publication_year'])
+    book.instance_variable_set(:@total_copies, hash[:total_copies] || hash['total_copies'])
+    book.instance_variable_set(:@available_copies, hash[:available_copies] || hash['available_copies'])
+    book.instance_variable_set(:@genre, hash[:genre] || hash['genre'])
     book
   end
 

@@ -14,7 +14,7 @@ module LibraryLogger
       file.puts(log_entry)
     end
   rescue => e
-    warn "Failed to write to log file: #{e.message}"
+    Kernel.warn "Failed to write to log file: #{e.message}"
   end
 
   def self.info(message, context = {})

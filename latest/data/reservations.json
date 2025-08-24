@@ -1,0 +1,18 @@
+{
+  "779dd152-2087-4c79-8343-522ea05854b1": {
+    "id": "779dd152-2087-4c79-8343-522ea05854b1",
+    "book_isbn": "9780143127741",
+    "member_id": "278c24fd-99f9-46dd-8ab0-7ab55bf98611",
+    "reservation_date": "2025-08-24",
+    "expiration_date": "2025-08-27",
+    "fulfilled": false
+  },
+  "ab94dabf-47f3-4ea5-b090-e1a4a2d1cc2c": {
+    "id": "ab94dabf-47f3-4ea5-b090-e1a4a2d1cc2c",
+    "book_isbn": "9780439708180",
+    "member_id": "71304d73-f579-460c-b677-08475984e2cc",
+    "reservation_date": "2025-08-24",
+    "expiration_date": "2025-08-27",
+    "fulfilled": false
+  }
+}

@@ -4,7 +4,7 @@ require 'fileutils'
 require 'json'
 
 RSpec.describe DataStore do
-  let(:data_store) { DataStore.new }
+  let(:data_store) { DataStore.new('tmp/test_data') }
   let(:book) do
     Book.new(
       isbn: '9780306406157',
@@ -25,6 +25,11 @@ RSpec.describe DataStore do
 
   around(:each) do |example|
     with_temp_files do
+      # Ensure temp directory is completely clean
+      if Dir.exist?('tmp/test_data')
+        FileUtils.rm_rf('tmp/test_data')
+        FileUtils.mkdir_p('tmp/test_data')
+      end
       example.run
     end
   end

@@ -12,7 +12,7 @@ RSpec.describe Book do
     }
   end
 
-  subject { described_class.new(valid_attributes) }
+  subject { described_class.new(**valid_attributes) }
 
   it_behaves_like "a valid model"
 
@@ -30,7 +30,7 @@ RSpec.describe Book do
 
       it 'strips whitespace from text fields' do
         book = described_class.new(
-          valid_attributes.merge(
+          **valid_attributes.merge(
             title: '  Clean Code  ',
             author: '  Robert Martin  ',
             genre: '  Programming  '
@@ -46,49 +46,49 @@ RSpec.describe Book do
     context 'with invalid attributes' do
       it 'raises error for invalid ISBN' do
         expect {
-          described_class.new(valid_attributes.merge(isbn: 'invalid'))
+          described_class.new(**valid_attributes.merge(isbn: 'invalid'))
         }.to raise_error(ArgumentError, "Invalid ISBN format")
       end
 
       it 'raises error for empty title' do
         expect {
-          described_class.new(valid_attributes.merge(title: ''))
+          described_class.new(**valid_attributes.merge(title: ''))
         }.to raise_error(ArgumentError, "Title cannot be empty")
       end
 
       it 'raises error for nil title' do
         expect {
-          described_class.new(valid_attributes.merge(title: nil))
+          described_class.new(**valid_attributes.merge(title: nil))
         }.to raise_error(ArgumentError, "Title cannot be empty")
       end
 
       it 'raises error for empty author' do
         expect {
-          described_class.new(valid_attributes.merge(author: ''))
+          described_class.new(**valid_attributes.merge(author: ''))
         }.to raise_error(ArgumentError, "Author cannot be empty")
       end
 
       it 'raises error for invalid publication year' do
         expect {
-          described_class.new(valid_attributes.merge(publication_year: 1700))
+          described_class.new(**valid_attributes.merge(publication_year: 1700))
         }.to raise_error(ArgumentError, "Publication year must be between 1800 and current year")
       end
 
       it 'raises error for future publication year' do
         expect {
-          described_class.new(valid_attributes.merge(publication_year: Time.now.year + 1))
+          described_class.new(**valid_attributes.merge(publication_year: Time.now.year + 1))
         }.to raise_error(ArgumentError, "Publication year must be between 1800 and current year")
       end
 
       it 'raises error for zero or negative copies' do
         expect {
-          described_class.new(valid_attributes.merge(total_copies: 0))
+          described_class.new(**valid_attributes.merge(total_copies: 0))
         }.to raise_error(ArgumentError, "Total copies must be positive")
       end
 
       it 'raises error for empty genre' do
         expect {
-          described_class.new(valid_attributes.merge(genre: ''))
+          described_class.new(**valid_attributes.merge(genre: ''))
         }.to raise_error(ArgumentError, "Genre cannot be empty")
       end
     end

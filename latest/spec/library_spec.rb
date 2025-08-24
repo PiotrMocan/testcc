@@ -3,17 +3,23 @@ require_relative 'shared_examples'
 require 'date'
 
 RSpec.describe Library do
-  let(:library) { Library.new }
+  let(:library) { Library.new('tmp/test_data') }
   
   around(:each) do |example|
-    with_temp_files do
-      example.run
+    # Ensure temp directory is clean
+    if Dir.exist?('tmp/test_data')
+      FileUtils.rm_rf('tmp/test_data')
     end
+    FileUtils.mkdir_p('tmp/test_data')
+    
+    example.run
+  ensure
+    FileUtils.rm_rf('tmp') if Dir.exist?('tmp')
   end
 
   describe 'initialization' do
     it_behaves_like "a loggable operation", "initialization", "info" do
-      subject { Library.new }
+      subject { Library.new('tmp/test_data') }
     end
   end
 

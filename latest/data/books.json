@@ -1,0 +1,92 @@
+{
+  "9780143127741": {
+    "isbn": "9780143127741",
+    "title": "The Handmaid's Tale",
+    "author": "Margaret Atwood",
+    "publication_year": 1985,
+    "total_copies": 3,
+    "available_copies": 2,
+    "genre": "Dystopian Fiction"
+  },
+  "9780452284234": {
+    "isbn": "9780452284234",
+    "title": "1984",
+    "author": "George Orwell",
+    "publication_year": 1949,
+    "total_copies": 4,
+    "available_copies": 3,
+    "genre": "Dystopian Fiction"
+  },
+  "9780060850524": {
+    "isbn": "9780060850524",
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "publication_year": 1932,
+    "total_copies": 2,
+    "available_copies": 2,
+    "genre": "Science Fiction"
+  },
+  "9780141439518": {
+    "isbn": "9780141439518",
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "publication_year": 1813,
+    "total_copies": 5,
+    "available_copies": 5,
+    "genre": "Romance"
+  },
+  "9780385472579": {
+    "isbn": "9780385472579",
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "publication_year": 2003,
+    "total_copies": 3,
+    "available_copies": 3,
+    "genre": "Historical Fiction"
+  },
+  "9780439708180": {
+    "isbn": "9780439708180",
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "publication_year": 1997,
+    "total_copies": 6,
+    "available_copies": 5,
+    "genre": "Fantasy"
+  },
+  "9780544003415": {
+    "isbn": "9780544003415",
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "publication_year": 1954,
+    "total_copies": 4,
+    "available_copies": 3,
+    "genre": "Fantasy"
+  },
+  "9780062315007": {
+    "isbn": "9780062315007",
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "publication_year": 1988,
+    "total_copies": 3,
+    "available_copies": 3,
+    "genre": "Philosophy"
+  },
+  "9780316769488": {
+    "isbn": "9780316769488",
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "publication_year": 1951,
+    "total_copies": 2,
+    "available_copies": 2,
+    "genre": "Coming of Age"
+  },
+  "9780307887894": {
+    "isbn": "9780307887894",
+    "title": "Gone Girl",
+    "author": "Gillian Flynn",
+    "publication_year": 2012,
+    "total_copies": 4,
+    "available_copies": 3,
+    "genre": "Mystery Thriller"
+  }
+}

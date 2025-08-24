@@ -30,8 +30,8 @@ RSpec.configure do |config|
   end
 
   config.before(:each) do
-    FileUtils.rm_rf('tmp/test_data/*')
-    FileUtils.rm_rf('tmp/test_logs/*')
+    FileUtils.rm_rf(Dir.glob('tmp/test_data/*'))
+    FileUtils.rm_rf(Dir.glob('tmp/test_logs/*'))
   end
 
   config.after(:suite) do
@@ -43,11 +43,17 @@ def with_temp_files
   original_data_dir = DataStore::DATA_DIR
   original_log_file = LibraryLogger::LOG_FILE
   
+  # Remove and redefine constants
+  DataStore.send(:remove_const, :DATA_DIR)
+  LibraryLogger.send(:remove_const, :LOG_FILE)
   DataStore.const_set(:DATA_DIR, 'tmp/test_data')
   LibraryLogger.const_set(:LOG_FILE, 'tmp/test_logs/test.log')
   
   yield
 ensure
+  # Restore original constants
+  DataStore.send(:remove_const, :DATA_DIR)
+  LibraryLogger.send(:remove_const, :LOG_FILE)
   DataStore.const_set(:DATA_DIR, original_data_dir)
   LibraryLogger.const_set(:LOG_FILE, original_log_file)
 end

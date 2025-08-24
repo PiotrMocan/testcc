@@ -10,7 +10,7 @@ RSpec.describe Loan do
     }
   end
 
-  subject { described_class.new(valid_attributes) }
+  subject { described_class.new(**valid_attributes) }
 
   it_behaves_like "a valid model"
 
@@ -36,12 +36,12 @@ RSpec.describe Loan do
       end
 
       it 'uses current time as default checkout date' do
-        loan = described_class.new(valid_attributes.except(:checkout_date))
-        expect(loan.checkout_date).to be_within(1.second).of(Time.now)
+        loan = described_class.new(**valid_attributes.except(:checkout_date))
+        expect(loan.checkout_date).to be_within(1).of(Time.now)
       end
 
       it 'accepts checkout date as string' do
-        loan = described_class.new(valid_attributes.merge(checkout_date: '2023-06-01'))
+        loan = described_class.new(**valid_attributes.merge(checkout_date: '2023-06-01'))
         expect(loan.checkout_date.year).to eq(2023)
         expect(loan.checkout_date.month).to eq(6)
         expect(loan.checkout_date.day).to eq(1)
@@ -56,25 +56,25 @@ RSpec.describe Loan do
     context 'with invalid attributes' do
       it 'raises error for empty ID' do
         expect {
-          described_class.new(valid_attributes.merge(id: ''))
+          described_class.new(**valid_attributes.merge(id: ''))
         }.to raise_error(ArgumentError, "ID cannot be empty")
       end
 
       it 'raises error for nil ID' do
         expect {
-          described_class.new(valid_attributes.merge(id: nil))
+          described_class.new(**valid_attributes.merge(id: nil))
         }.to raise_error(ArgumentError, "ID cannot be empty")
       end
 
       it 'raises error for empty book ISBN' do
         expect {
-          described_class.new(valid_attributes.merge(book_isbn: ''))
+          described_class.new(**valid_attributes.merge(book_isbn: ''))
         }.to raise_error(ArgumentError, "Book ISBN cannot be empty")
       end
 
       it 'raises error for empty member ID' do
         expect {
-          described_class.new(valid_attributes.merge(member_id: ''))
+          described_class.new(**valid_attributes.merge(member_id: ''))
         }.to raise_error(ArgumentError, "Member ID cannot be empty")
       end
     end
@@ -90,7 +90,7 @@ RSpec.describe Loan do
 
     it 'uses current time by default' do
       subject.return_book
-      expect(subject.return_date).to be_within(1.second).of(Time.now)
+      expect(subject.return_date).to be_within(1).of(Time.now)
     end
 
     it 'accepts return date as string' do
@@ -221,9 +221,9 @@ RSpec.describe Loan do
       expect(restored_loan.id).to eq(subject.id)
       expect(restored_loan.book_isbn).to eq(subject.book_isbn)
       expect(restored_loan.member_id).to eq(subject.member_id)
-      expect(restored_loan.checkout_date).to be_within(1.second).of(subject.checkout_date)
-      expect(restored_loan.due_date).to be_within(1.second).of(subject.due_date)
-      expect(restored_loan.return_date).to be_within(1.second).of(subject.return_date)
+      expect(restored_loan.checkout_date).to be_within(1).of(subject.checkout_date)
+      expect(restored_loan.due_date).to be_within(1).of(subject.due_date)
+      expect(restored_loan.return_date).to be_within(1).of(subject.return_date)
     end
 
     it 'handles nil return date' do

@@ -49,12 +49,12 @@ class Reservation
 
   def self.from_hash(hash)
     reservation = allocate
-    reservation.instance_variable_set(:@id, hash['id'])
-    reservation.instance_variable_set(:@book_isbn, hash['book_isbn'])
-    reservation.instance_variable_set(:@member_id, hash['member_id'])
-    reservation.instance_variable_set(:@reservation_date, Date.parse(hash['reservation_date']))
-    reservation.instance_variable_set(:@expiration_date, Date.parse(hash['expiration_date']))
-    reservation.instance_variable_set(:@fulfilled, hash['fulfilled'] || false)
+    reservation.instance_variable_set(:@id, hash[:id] || hash['id'])
+    reservation.instance_variable_set(:@book_isbn, hash[:book_isbn] || hash['book_isbn'])
+    reservation.instance_variable_set(:@member_id, hash[:member_id] || hash['member_id'])
+    reservation.instance_variable_set(:@reservation_date, Date.parse(hash[:reservation_date] || hash['reservation_date']))
+    reservation.instance_variable_set(:@expiration_date, Date.parse(hash[:expiration_date] || hash['expiration_date']))
+    reservation.instance_variable_set(:@fulfilled, hash[:fulfilled] || hash['fulfilled'] || false)
     reservation
   end
 

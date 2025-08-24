@@ -9,7 +9,7 @@ RSpec.describe Member do
     }
   end
 
-  subject { described_class.new(valid_attributes) }
+  subject { described_class.new(**valid_attributes) }
 
   it_behaves_like "a valid model"
 
@@ -24,13 +24,13 @@ RSpec.describe Member do
       end
 
       it 'normalizes email to lowercase' do
-        member = described_class.new(valid_attributes.merge(email: 'John.DOE@EXAMPLE.COM'))
+        member = described_class.new(**valid_attributes.merge(email: 'John.DOE@EXAMPLE.COM'))
         expect(member.email).to eq('john.doe@example.com')
       end
 
       it 'strips whitespace from name and email' do
         member = described_class.new(
-          valid_attributes.merge(
+          **valid_attributes.merge(
             name: '  John Doe  ',
             email: '  john@example.com  '
           )
@@ -42,12 +42,12 @@ RSpec.describe Member do
 
       it 'accepts custom registration date as Time object' do
         custom_date = Time.new(2023, 1, 1)
-        member = described_class.new(valid_attributes.merge(registration_date: custom_date))
+        member = described_class.new(**valid_attributes.merge(registration_date: custom_date))
         expect(member.registration_date).to eq(custom_date)
       end
 
       it 'accepts custom registration date as string' do
-        member = described_class.new(valid_attributes.merge(registration_date: '2023-01-01'))
+        member = described_class.new(**valid_attributes.merge(registration_date: '2023-01-01'))
         expect(member.registration_date.year).to eq(2023)
         expect(member.registration_date.month).to eq(1)
         expect(member.registration_date.day).to eq(1)
@@ -57,25 +57,25 @@ RSpec.describe Member do
     context 'with invalid attributes' do
       it 'raises error for empty ID' do
         expect {
-          described_class.new(valid_attributes.merge(id: ''))
+          described_class.new(**valid_attributes.merge(id: ''))
         }.to raise_error(ArgumentError, "ID cannot be empty")
       end
 
       it 'raises error for nil ID' do
         expect {
-          described_class.new(valid_attributes.merge(id: nil))
+          described_class.new(**valid_attributes.merge(id: nil))
         }.to raise_error(ArgumentError, "ID cannot be empty")
       end
 
       it 'raises error for empty name' do
         expect {
-          described_class.new(valid_attributes.merge(name: ''))
+          described_class.new(**valid_attributes.merge(name: ''))
         }.to raise_error(ArgumentError, "Name cannot be empty")
       end
 
       it 'raises error for invalid email' do
         expect {
-          described_class.new(valid_attributes.merge(email: 'invalid-email'))
+          described_class.new(**valid_attributes.merge(email: 'invalid-email'))
         }.to raise_error(ArgumentError, "Invalid email format")
       end
     end

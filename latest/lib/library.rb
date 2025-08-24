@@ -7,8 +7,8 @@ require_relative 'modules/logger'
 require 'date'
 
 class Library
-  def initialize
-    @data_store = DataStore.new
+  def initialize(data_dir = nil)
+    @data_store = DataStore.new(data_dir)
     LibraryLogger.info("Library system initialized")
   end
 

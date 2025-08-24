@@ -10,7 +10,7 @@ RSpec.describe Reservation do
     }
   end
 
-  subject { described_class.new(valid_attributes) }
+  subject { described_class.new(**valid_attributes) }
 
   it_behaves_like "a valid model"
 
@@ -32,12 +32,12 @@ RSpec.describe Reservation do
       end
 
       it 'uses current time as default reservation date' do
-        reservation = described_class.new(valid_attributes.except(:reservation_date))
-        expect(reservation.reservation_date).to be_within(1.second).of(Time.now)
+        reservation = described_class.new(**valid_attributes.except(:reservation_date))
+        expect(reservation.reservation_date).to be_within(1).of(Time.now)
       end
 
       it 'accepts reservation date as string' do
-        reservation = described_class.new(valid_attributes.merge(reservation_date: '2023-06-01'))
+        reservation = described_class.new(**valid_attributes.merge(reservation_date: '2023-06-01'))
         expect(reservation.reservation_date.year).to eq(2023)
         expect(reservation.reservation_date.month).to eq(6)
         expect(reservation.reservation_date.day).to eq(1)
@@ -52,25 +52,25 @@ RSpec.describe Reservation do
     context 'with invalid attributes' do
       it 'raises error for empty ID' do
         expect {
-          described_class.new(valid_attributes.merge(id: ''))
+          described_class.new(**valid_attributes.merge(id: ''))
         }.to raise_error(ArgumentError, "ID cannot be empty")
       end
 
       it 'raises error for nil ID' do
         expect {
-          described_class.new(valid_attributes.merge(id: nil))
+          described_class.new(**valid_attributes.merge(id: nil))
         }.to raise_error(ArgumentError, "ID cannot be empty")
       end
 
       it 'raises error for empty book ISBN' do
         expect {
-          described_class.new(valid_attributes.merge(book_isbn: ''))
+          described_class.new(**valid_attributes.merge(book_isbn: ''))
         }.to raise_error(ArgumentError, "Book ISBN cannot be empty")
       end
 
       it 'raises error for empty member ID' do
         expect {
-          described_class.new(valid_attributes.merge(member_id: ''))
+          described_class.new(**valid_attributes.merge(member_id: ''))
         }.to raise_error(ArgumentError, "Member ID cannot be empty")
       end
     end
@@ -174,8 +174,8 @@ RSpec.describe Reservation do
       expect(restored_reservation.book_isbn).to eq(subject.book_isbn)
       expect(restored_reservation.member_id).to eq(subject.member_id)
       expect(restored_reservation.fulfilled).to eq(subject.fulfilled)
-      expect(restored_reservation.reservation_date).to be_within(1.second).of(subject.reservation_date)
-      expect(restored_reservation.expiration_date).to be_within(1.second).of(subject.expiration_date)
+      expect(restored_reservation.reservation_date).to be_within(1).of(subject.reservation_date)
+      expect(restored_reservation.expiration_date).to be_within(1).of(subject.expiration_date)
     end
 
     it 'handles string keys from JSON' do

@@ -7,11 +7,13 @@ class Member
 
   def initialize(name:, email:, id: nil)
     raise ArgumentError, "Name cannot be empty" if name.nil? || name.strip.empty?
-    raise ArgumentError, "Invalid email format" unless Validator.valid_email?(email)
+    
+    clean_email = email&.downcase&.strip
+    raise ArgumentError, "Invalid email format" unless Validator.valid_email?(clean_email)
 
     @id = id || SecureRandom.uuid
     @name = name.strip
-    @email = email.downcase.strip
+    @email = clean_email
     @registration_date = Date.today
     @borrowing_history = []
   end
@@ -62,11 +64,11 @@ class Member
 
   def self.from_hash(hash)
     member = allocate
-    member.instance_variable_set(:@id, hash['id'])
-    member.instance_variable_set(:@name, hash['name'])
-    member.instance_variable_set(:@email, hash['email'])
-    member.instance_variable_set(:@registration_date, Date.parse(hash['registration_date']))
-    member.instance_variable_set(:@borrowing_history, hash['borrowing_history'] || [])
+    member.instance_variable_set(:@id, hash[:id] || hash['id'])
+    member.instance_variable_set(:@name, hash[:name] || hash['name'])
+    member.instance_variable_set(:@email, hash[:email] || hash['email'])
+    member.instance_variable_set(:@registration_date, Date.parse(hash[:registration_date] || hash['registration_date']))
+    member.instance_variable_set(:@borrowing_history, hash[:borrowing_history] || hash['borrowing_history'] || [])
     member
   end
 

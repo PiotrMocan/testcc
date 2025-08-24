@@ -13,7 +13,13 @@ class DataStore
   LOANS_FILE = File.join(DATA_DIR, 'loans.json').freeze
   RESERVATIONS_FILE = File.join(DATA_DIR, 'reservations.json').freeze
 
-  def initialize
+  def initialize(data_dir = nil)
+    @data_dir = data_dir || DATA_DIR
+    @books_file = File.join(@data_dir, 'books.json')
+    @members_file = File.join(@data_dir, 'members.json')
+    @loans_file = File.join(@data_dir, 'loans.json')
+    @reservations_file = File.join(@data_dir, 'reservations.json')
+    
     ensure_data_directory
     @books = load_books
     @members = load_members
@@ -125,13 +131,13 @@ class DataStore
   private
 
   def ensure_data_directory
-    FileUtils.mkdir_p(DATA_DIR) unless Dir.exist?(DATA_DIR)
+    FileUtils.mkdir_p(@data_dir) unless Dir.exist?(@data_dir)
   end
 
   def load_books
-    return {} unless File.exist?(BOOKS_FILE)
+    return {} unless File.exist?(@books_file)
     
-    data = JSON.parse(File.read(BOOKS_FILE))
+    data = JSON.parse(File.read(@books_file))
     data.transform_values { |book_data| Book.from_hash(book_data) }
   rescue JSON::ParserError => e
     LibraryLogger.error("Failed to parse books file", error: e.message)
@@ -142,9 +148,9 @@ class DataStore
   end
 
   def load_members
-    return {} unless File.exist?(MEMBERS_FILE)
+    return {} unless File.exist?(@members_file)
     
-    data = JSON.parse(File.read(MEMBERS_FILE))
+    data = JSON.parse(File.read(@members_file))
     data.transform_values { |member_data| Member.from_hash(member_data) }
   rescue JSON::ParserError => e
     LibraryLogger.error("Failed to parse members file", error: e.message)
@@ -155,9 +161,9 @@ class DataStore
   end
 
   def load_loans
-    return {} unless File.exist?(LOANS_FILE)
+    return {} unless File.exist?(@loans_file)
     
-    data = JSON.parse(File.read(LOANS_FILE))
+    data = JSON.parse(File.read(@loans_file))
     data.transform_values { |loan_data| Loan.from_hash(loan_data) }
   rescue JSON::ParserError => e
     LibraryLogger.error("Failed to parse loans file", error: e.message)
@@ -168,9 +174,9 @@ class DataStore
   end
 
   def load_reservations
-    return {} unless File.exist?(RESERVATIONS_FILE)
+    return {} unless File.exist?(@reservations_file)
     
-    data = JSON.parse(File.read(RESERVATIONS_FILE))
+    data = JSON.parse(File.read(@reservations_file))
     data.transform_values { |reservation_data| Reservation.from_hash(reservation_data) }
   rescue JSON::ParserError => e
     LibraryLogger.error("Failed to parse reservations file", error: e.message)
@@ -181,19 +187,19 @@ class DataStore
   end
 
   def save_books
-    save_to_file(BOOKS_FILE, @books.transform_values(&:to_hash))
+    save_to_file(@books_file, @books.transform_values(&:to_hash))
   end
 
   def save_members
-    save_to_file(MEMBERS_FILE, @members.transform_values(&:to_hash))
+    save_to_file(@members_file, @members.transform_values(&:to_hash))
   end
 
   def save_loans
-    save_to_file(LOANS_FILE, @loans.transform_values(&:to_hash))
+    save_to_file(@loans_file, @loans.transform_values(&:to_hash))
   end
 
   def save_reservations
-    save_to_file(RESERVATIONS_FILE, @reservations.transform_values(&:to_hash))
+    save_to_file(@reservations_file, @reservations.transform_values(&:to_hash))
   end
 
   def save_to_file(filename, data)

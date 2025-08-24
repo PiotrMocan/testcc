@@ -241,12 +241,13 @@ RSpec.describe LibrarySystem do
   end
 
   describe '#return_book' do
+    let(:fixed_time) { Time.new(2023, 6, 1, 12, 0, 0) }
     let(:loan) do
       Loan.new(
         id: 'LOAN_001',
         book_isbn: '9780132350884',
         member_id: 'MEM001',
-        checkout_date: Time.now - (10 * 24 * 60 * 60)
+        checkout_date: fixed_time
       )
     end
 

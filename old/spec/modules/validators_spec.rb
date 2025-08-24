@@ -65,7 +65,7 @@ RSpec.describe Validators do
   describe '#valid_isbn?' do
     context 'with valid ISBN-10' do
       it 'accepts valid ISBN-10 with check digit' do
-        expect(validator.valid_isbn?('0132350881')).to be true
+        expect(validator.valid_isbn?('0132350882')).to be true
       end
 
       it 'accepts valid ISBN-10 with X check digit' do
@@ -73,11 +73,11 @@ RSpec.describe Validators do
       end
 
       it 'accepts ISBN-10 with dashes' do
-        expect(validator.valid_isbn?('0-13-235088-1')).to be true
+        expect(validator.valid_isbn?('0-13-235088-2')).to be true
       end
 
       it 'accepts ISBN-10 with spaces' do
-        expect(validator.valid_isbn?('0 13 235088 1')).to be true
+        expect(validator.valid_isbn?('0 13 235088 2')).to be true
       end
     end
 
@@ -97,7 +97,7 @@ RSpec.describe Validators do
 
     context 'with invalid ISBNs' do
       it 'rejects invalid ISBN-10 check digit' do
-        expect(validator.valid_isbn?('0132350880')).to be false
+        expect(validator.valid_isbn?('0132350881')).to be false
       end
 
       it 'rejects invalid ISBN-13 check digit' do

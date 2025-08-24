@@ -1,0 +1,120 @@
+{
+  "89d91fc7-9dc4-4316-a8fc-63a491f0128a": {
+    "id": "89d91fc7-9dc4-4316-a8fc-63a491f0128a",
+    "name": "Alice Johnson",
+    "email": "alice.johnson@email.com",
+    "registration_date": "2025-08-24",
+    "borrowing_history": [
+      {
+        "book_isbn": "9780143127741",
+        "checkout_date": "2025-08-24",
+        "due_date": "2025-09-07",
+        "return_date": null
+      },
+      {
+        "book_isbn": "9780544003415",
+        "checkout_date": "2025-08-24",
+        "due_date": "2025-09-07",
+        "return_date": null
+      }
+    ]
+  },
+  "278c24fd-99f9-46dd-8ab0-7ab55bf98611": {
+    "id": "278c24fd-99f9-46dd-8ab0-7ab55bf98611",
+    "name": "Bob Smith",
+    "email": "bob.smith@email.com",
+    "registration_date": "2025-08-24",
+    "borrowing_history": [
+      {
+        "book_isbn": "9780452284234",
+        "checkout_date": "2025-08-24",
+        "due_date": "2025-09-07",
+        "return_date": null
+      }
+    ]
+  },
+  "daae261e-1add-4280-bf12-4df688f2f06e": {
+    "id": "daae261e-1add-4280-bf12-4df688f2f06e",
+    "name": "Carol Davis",
+    "email": "carol.davis@email.com",
+    "registration_date": "2025-08-24",
+    "borrowing_history": [
+      {
+        "book_isbn": "9780439708180",
+        "checkout_date": "2025-08-24",
+        "due_date": "2025-09-07",
+        "return_date": null
+      }
+    ]
+  },
+  "71304d73-f579-460c-b677-08475984e2cc": {
+    "id": "71304d73-f579-460c-b677-08475984e2cc",
+    "name": "David Wilson",
+    "email": "david.wilson@email.com",
+    "registration_date": "2025-08-24",
+    "borrowing_history": [
+      {
+        "book_isbn": "9780307887894",
+        "checkout_date": "2025-08-24",
+        "due_date": "2025-09-07",
+        "return_date": null
+      }
+    ]
+  },
+  "160ed4ad-04f4-451b-915f-08fd33a7db9f": {
+    "id": "160ed4ad-04f4-451b-915f-08fd33a7db9f",
+    "name": "Emma Brown",
+    "email": "emma.brown@email.com",
+    "registration_date": "2025-08-24",
+    "borrowing_history": [
+      {
+        "book_isbn": "9780060850524",
+        "checkout_date": "2025-08-24",
+        "due_date": "2025-09-07",
+        "return_date": "2025-08-19"
+      }
+    ]
+  },
+  "06993047-330c-4918-85ea-8cc22b08ed14": {
+    "id": "06993047-330c-4918-85ea-8cc22b08ed14",
+    "name": "Frank Miller",
+    "email": "frank.miller@email.com",
+    "registration_date": "2025-08-24",
+    "borrowing_history": [
+      {
+        "book_isbn": "9780141439518",
+        "checkout_date": "2025-08-24",
+        "due_date": "2025-09-07",
+        "return_date": "2025-08-04"
+      }
+    ]
+  },
+  "c513dc52-47d5-46d8-9d65-6b81940a1a70": {
+    "id": "c513dc52-47d5-46d8-9d65-6b81940a1a70",
+    "name": "Grace Lee",
+    "email": "grace.lee@email.com",
+    "registration_date": "2025-08-24",
+    "borrowing_history": [
+      {
+        "book_isbn": "9780385472579",
+        "checkout_date": "2025-08-24",
+        "due_date": "2025-09-07",
+        "return_date": "2025-08-14"
+      }
+    ]
+  },
+  "ce19f29b-82af-43b3-b9c6-47c7c93b42d5": {
+    "id": "ce19f29b-82af-43b3-b9c6-47c7c93b42d5",
+    "name": "Henry Taylor",
+    "email": "henry.taylor@email.com",
+    "registration_date": "2025-08-24",
+    "borrowing_history": [
+      {
+        "book_isbn": "9780062315007",
+        "checkout_date": "2025-08-24",
+        "due_date": "2025-09-07",
+        "return_date": "2025-07-30"
+      }
+    ]
+  }
+}

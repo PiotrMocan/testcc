@@ -23,8 +23,9 @@ class Loan
   def return_book(return_date = Date.today)
     raise StandardError, "Book already returned" unless @return_date.nil?
     
-    @return_date = return_date.is_a?(String) ? Date.parse(return_date) : return_date
-    calculate_late_fee
+    return_date = return_date.is_a?(String) ? Date.parse(return_date) : return_date
+    calculate_late_fee(return_date)
+    @return_date = return_date
   end
 
   def overdue?(current_date = Date.today)
@@ -69,13 +70,14 @@ class Loan
 
   def self.from_hash(hash)
     loan = allocate
-    loan.instance_variable_set(:@id, hash['id'])
-    loan.instance_variable_set(:@book_isbn, hash['book_isbn'])
-    loan.instance_variable_set(:@member_id, hash['member_id'])
-    loan.instance_variable_set(:@checkout_date, Date.parse(hash['checkout_date']))
-    loan.instance_variable_set(:@due_date, Date.parse(hash['due_date']))
-    loan.instance_variable_set(:@return_date, hash['return_date'] ? Date.parse(hash['return_date']) : nil)
-    loan.instance_variable_set(:@late_fee, hash['late_fee'] || 0)
+    loan.instance_variable_set(:@id, hash[:id] || hash['id'])
+    loan.instance_variable_set(:@book_isbn, hash[:book_isbn] || hash['book_isbn'])
+    loan.instance_variable_set(:@member_id, hash[:member_id] || hash['member_id'])
+    loan.instance_variable_set(:@checkout_date, Date.parse(hash[:checkout_date] || hash['checkout_date']))
+    loan.instance_variable_set(:@due_date, Date.parse(hash[:due_date] || hash['due_date']))
+    return_date_str = hash[:return_date] || hash['return_date']
+    loan.instance_variable_set(:@return_date, return_date_str ? Date.parse(return_date_str) : nil)
+    loan.instance_variable_set(:@late_fee, hash[:late_fee] || hash['late_fee'] || 0)
     loan
   end
 

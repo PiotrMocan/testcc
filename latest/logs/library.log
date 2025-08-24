@@ -1,0 +1,422 @@
+[2025-08-24 18:07:26] INFO: Library system initialized
+[2025-08-24 18:07:26] INFO: Book saved | isbn=9780143127741 title=The Handmaid's Tale
+[2025-08-24 18:07:26] INFO: New book added | isbn=9780143127741 title=The Handmaid's Tale
+[2025-08-24 18:07:26] INFO: Book saved | isbn=9780452284234 title=1984
+[2025-08-24 18:07:26] INFO: New book added | isbn=9780452284234 title=1984
+[2025-08-24 18:07:26] INFO: Book saved | isbn=9780060850524 title=Brave New World
+[2025-08-24 18:07:26] INFO: New book added | isbn=9780060850524 title=Brave New World
+[2025-08-24 18:07:26] INFO: Book saved | isbn=9780141439518 title=Pride and Prejudice
+[2025-08-24 18:07:26] INFO: New book added | isbn=9780141439518 title=Pride and Prejudice
+[2025-08-24 18:07:26] INFO: Book saved | isbn=9780385472579 title=The Kite Runner
+[2025-08-24 18:07:26] INFO: New book added | isbn=9780385472579 title=The Kite Runner
+[2025-08-24 18:07:26] INFO: Book saved | isbn=9780439708180 title=Harry Potter and the Sorcerer's Stone
+[2025-08-24 18:07:26] INFO: New book added | isbn=9780439708180 title=Harry Potter and the Sorcerer's Stone
+[2025-08-24 18:07:26] INFO: Book saved | isbn=9780544003415 title=The Lord of the Rings
+[2025-08-24 18:07:26] INFO: New book added | isbn=9780544003415 title=The Lord of the Rings
+[2025-08-24 18:07:26] INFO: Book saved | isbn=9780062315007 title=The Alchemist
+[2025-08-24 18:07:26] INFO: New book added | isbn=9780062315007 title=The Alchemist
+[2025-08-24 18:07:26] INFO: Book saved | isbn=9780316769488 title=The Catcher in the Rye
+[2025-08-24 18:07:26] INFO: New book added | isbn=9780316769488 title=The Catcher in the Rye
+[2025-08-24 18:07:26] INFO: Book saved | isbn=9780307887894 title=Gone Girl
+[2025-08-24 18:07:26] INFO: New book added | isbn=9780307887894 title=Gone Girl
+[2025-08-24 18:07:26] INFO: Member saved | member_id=89d91fc7-9dc4-4316-a8fc-63a491f0128a name=Alice Johnson
+[2025-08-24 18:07:26] INFO: New member registered | member_id=89d91fc7-9dc4-4316-a8fc-63a491f0128a name=Alice Johnson
+[2025-08-24 18:07:26] INFO: Member saved | member_id=278c24fd-99f9-46dd-8ab0-7ab55bf98611 name=Bob Smith
+[2025-08-24 18:07:26] INFO: New member registered | member_id=278c24fd-99f9-46dd-8ab0-7ab55bf98611 name=Bob Smith
+[2025-08-24 18:07:26] INFO: Member saved | member_id=daae261e-1add-4280-bf12-4df688f2f06e name=Carol Davis
+[2025-08-24 18:07:26] INFO: New member registered | member_id=daae261e-1add-4280-bf12-4df688f2f06e name=Carol Davis
+[2025-08-24 18:07:26] INFO: Member saved | member_id=71304d73-f579-460c-b677-08475984e2cc name=David Wilson
+[2025-08-24 18:07:26] INFO: New member registered | member_id=71304d73-f579-460c-b677-08475984e2cc name=David Wilson
+[2025-08-24 18:07:26] INFO: Member saved | member_id=160ed4ad-04f4-451b-915f-08fd33a7db9f name=Emma Brown
+[2025-08-24 18:07:26] INFO: New member registered | member_id=160ed4ad-04f4-451b-915f-08fd33a7db9f name=Emma Brown
+[2025-08-24 18:07:26] INFO: Member saved | member_id=06993047-330c-4918-85ea-8cc22b08ed14 name=Frank Miller
+[2025-08-24 18:07:26] INFO: New member registered | member_id=06993047-330c-4918-85ea-8cc22b08ed14 name=Frank Miller
+[2025-08-24 18:07:26] INFO: Member saved | member_id=c513dc52-47d5-46d8-9d65-6b81940a1a70 name=Grace Lee
+[2025-08-24 18:07:26] INFO: New member registered | member_id=c513dc52-47d5-46d8-9d65-6b81940a1a70 name=Grace Lee
+[2025-08-24 18:07:26] INFO: Member saved | member_id=ce19f29b-82af-43b3-b9c6-47c7c93b42d5 name=Henry Taylor
+[2025-08-24 18:07:26] INFO: New member registered | member_id=ce19f29b-82af-43b3-b9c6-47c7c93b42d5 name=Henry Taylor
+[2025-08-24 18:07:26] INFO: Book saved | isbn=9780143127741 title=The Handmaid's Tale
+[2025-08-24 18:07:26] INFO: Loan saved | loan_id=2ae04db4-f3a0-4068-9039-830c1f55f365 book_isbn=9780143127741 member_id=89d91fc7-9dc4-4316-a8fc-63a491f0128a
+[2025-08-24 18:07:26] INFO: Member saved | member_id=89d91fc7-9dc4-4316-a8fc-63a491f0128a name=Alice Johnson
+[2025-08-24 18:07:26] INFO: Book checked out | isbn=9780143127741 member_id=89d91fc7-9dc4-4316-a8fc-63a491f0128a loan_id=2ae04db4-f3a0-4068-9039-830c1f55f365
+[2025-08-24 18:07:26] INFO: Book saved | isbn=9780452284234 title=1984
+[2025-08-24 18:07:26] INFO: Loan saved | loan_id=7e214d02-20ab-40cc-ae9e-754230e3d749 book_isbn=9780452284234 member_id=278c24fd-99f9-46dd-8ab0-7ab55bf98611
+[2025-08-24 18:07:26] INFO: Member saved | member_id=278c24fd-99f9-46dd-8ab0-7ab55bf98611 name=Bob Smith
+[2025-08-24 18:07:26] INFO: Book checked out | isbn=9780452284234 member_id=278c24fd-99f9-46dd-8ab0-7ab55bf98611 loan_id=7e214d02-20ab-40cc-ae9e-754230e3d749
+[2025-08-24 18:07:26] INFO: Book saved | isbn=9780439708180 title=Harry Potter and the Sorcerer's Stone
+[2025-08-24 18:07:26] INFO: Loan saved | loan_id=407647fc-5b98-412a-9b41-4637ed52fa53 book_isbn=9780439708180 member_id=daae261e-1add-4280-bf12-4df688f2f06e
+[2025-08-24 18:07:26] INFO: Member saved | member_id=daae261e-1add-4280-bf12-4df688f2f06e name=Carol Davis
+[2025-08-24 18:07:26] INFO: Book checked out | isbn=9780439708180 member_id=daae261e-1add-4280-bf12-4df688f2f06e loan_id=407647fc-5b98-412a-9b41-4637ed52fa53
+[2025-08-24 18:07:26] INFO: Book saved | isbn=9780544003415 title=The Lord of the Rings
+[2025-08-24 18:07:26] INFO: Loan saved | loan_id=58d8e9f2-cee0-4534-bbe6-0a542b575405 book_isbn=9780544003415 member_id=89d91fc7-9dc4-4316-a8fc-63a491f0128a
+[2025-08-24 18:07:26] INFO: Member saved | member_id=89d91fc7-9dc4-4316-a8fc-63a491f0128a name=Alice Johnson
+[2025-08-24 18:07:26] INFO: Book checked out | isbn=9780544003415 member_id=89d91fc7-9dc4-4316-a8fc-63a491f0128a loan_id=58d8e9f2-cee0-4534-bbe6-0a542b575405
+[2025-08-24 18:07:26] INFO: Book saved | isbn=9780307887894 title=Gone Girl
+[2025-08-24 18:07:26] INFO: Loan saved | loan_id=f731f481-d365-453f-a61d-3a5bf6508149 book_isbn=9780307887894 member_id=71304d73-f579-460c-b677-08475984e2cc
+[2025-08-24 18:07:26] INFO: Member saved | member_id=71304d73-f579-460c-b677-08475984e2cc name=David Wilson
+[2025-08-24 18:07:26] INFO: Book checked out | isbn=9780307887894 member_id=71304d73-f579-460c-b677-08475984e2cc loan_id=f731f481-d365-453f-a61d-3a5bf6508149
+[2025-08-24 18:07:26] INFO: Book saved | isbn=9780060850524 title=Brave New World
+[2025-08-24 18:07:26] INFO: Loan saved | loan_id=3027b178-16de-4e42-8e3b-dd0030ff5392 book_isbn=9780060850524 member_id=160ed4ad-04f4-451b-915f-08fd33a7db9f
+[2025-08-24 18:07:26] INFO: Member saved | member_id=160ed4ad-04f4-451b-915f-08fd33a7db9f name=Emma Brown
+[2025-08-24 18:07:26] INFO: Book checked out | isbn=9780060850524 member_id=160ed4ad-04f4-451b-915f-08fd33a7db9f loan_id=3027b178-16de-4e42-8e3b-dd0030ff5392
+[2025-08-24 18:07:26] INFO: Book saved | isbn=9780060850524 title=Brave New World
+[2025-08-24 18:07:26] INFO: Loan saved | loan_id=3027b178-16de-4e42-8e3b-dd0030ff5392 book_isbn=9780060850524 member_id=160ed4ad-04f4-451b-915f-08fd33a7db9f
+[2025-08-24 18:07:26] INFO: Member saved | member_id=160ed4ad-04f4-451b-915f-08fd33a7db9f name=Emma Brown
+[2025-08-24 18:07:26] INFO: Book returned | isbn=9780060850524 member_id=160ed4ad-04f4-451b-915f-08fd33a7db9f late_fee=0
+[2025-08-24 18:07:26] INFO: Book saved | isbn=9780141439518 title=Pride and Prejudice
+[2025-08-24 18:07:26] INFO: Loan saved | loan_id=6ed0c6bd-6ed7-4af1-8c78-c61540b3dfba book_isbn=9780141439518 member_id=06993047-330c-4918-85ea-8cc22b08ed14
+[2025-08-24 18:07:26] INFO: Member saved | member_id=06993047-330c-4918-85ea-8cc22b08ed14 name=Frank Miller
+[2025-08-24 18:07:26] INFO: Book checked out | isbn=9780141439518 member_id=06993047-330c-4918-85ea-8cc22b08ed14 loan_id=6ed0c6bd-6ed7-4af1-8c78-c61540b3dfba
+[2025-08-24 18:07:26] INFO: Book saved | isbn=9780141439518 title=Pride and Prejudice
+[2025-08-24 18:07:26] INFO: Loan saved | loan_id=6ed0c6bd-6ed7-4af1-8c78-c61540b3dfba book_isbn=9780141439518 member_id=06993047-330c-4918-85ea-8cc22b08ed14
+[2025-08-24 18:07:26] INFO: Member saved | member_id=06993047-330c-4918-85ea-8cc22b08ed14 name=Frank Miller
+[2025-08-24 18:07:26] INFO: Book returned | isbn=9780141439518 member_id=06993047-330c-4918-85ea-8cc22b08ed14 late_fee=0
+[2025-08-24 18:07:26] INFO: Book saved | isbn=9780385472579 title=The Kite Runner
+[2025-08-24 18:07:26] INFO: Loan saved | loan_id=97e10c94-c297-491a-85d1-c46bf5366aa4 book_isbn=9780385472579 member_id=c513dc52-47d5-46d8-9d65-6b81940a1a70
+[2025-08-24 18:07:26] INFO: Member saved | member_id=c513dc52-47d5-46d8-9d65-6b81940a1a70 name=Grace Lee
+[2025-08-24 18:07:26] INFO: Book checked out | isbn=9780385472579 member_id=c513dc52-47d5-46d8-9d65-6b81940a1a70 loan_id=97e10c94-c297-491a-85d1-c46bf5366aa4
+[2025-08-24 18:07:26] INFO: Book saved | isbn=9780385472579 title=The Kite Runner
+[2025-08-24 18:07:26] INFO: Loan saved | loan_id=97e10c94-c297-491a-85d1-c46bf5366aa4 book_isbn=9780385472579 member_id=c513dc52-47d5-46d8-9d65-6b81940a1a70
+[2025-08-24 18:07:26] INFO: Member saved | member_id=c513dc52-47d5-46d8-9d65-6b81940a1a70 name=Grace Lee
+[2025-08-24 18:07:26] INFO: Book returned | isbn=9780385472579 member_id=c513dc52-47d5-46d8-9d65-6b81940a1a70 late_fee=0
+[2025-08-24 18:07:26] INFO: Book saved | isbn=9780062315007 title=The Alchemist
+[2025-08-24 18:07:26] INFO: Loan saved | loan_id=1a12a7b4-aa71-4b72-baf4-e6219d6256b1 book_isbn=9780062315007 member_id=ce19f29b-82af-43b3-b9c6-47c7c93b42d5
+[2025-08-24 18:07:26] INFO: Member saved | member_id=ce19f29b-82af-43b3-b9c6-47c7c93b42d5 name=Henry Taylor
+[2025-08-24 18:07:26] INFO: Book checked out | isbn=9780062315007 member_id=ce19f29b-82af-43b3-b9c6-47c7c93b42d5 loan_id=1a12a7b4-aa71-4b72-baf4-e6219d6256b1
+[2025-08-24 18:07:26] INFO: Book saved | isbn=9780062315007 title=The Alchemist
+[2025-08-24 18:07:26] INFO: Loan saved | loan_id=1a12a7b4-aa71-4b72-baf4-e6219d6256b1 book_isbn=9780062315007 member_id=ce19f29b-82af-43b3-b9c6-47c7c93b42d5
+[2025-08-24 18:07:26] INFO: Member saved | member_id=ce19f29b-82af-43b3-b9c6-47c7c93b42d5 name=Henry Taylor
+[2025-08-24 18:07:26] INFO: Book returned | isbn=9780062315007 member_id=ce19f29b-82af-43b3-b9c6-47c7c93b42d5 late_fee=0
+[2025-08-24 18:07:26] INFO: Reservation saved | reservation_id=779dd152-2087-4c79-8343-522ea05854b1 book_isbn=9780143127741 member_id=278c24fd-99f9-46dd-8ab0-7ab55bf98611
+[2025-08-24 18:07:26] INFO: Book reserved | isbn=9780143127741 member_id=278c24fd-99f9-46dd-8ab0-7ab55bf98611 reservation_id=779dd152-2087-4c79-8343-522ea05854b1
+[2025-08-24 18:07:26] INFO: Reservation saved | reservation_id=ab94dabf-47f3-4ea5-b090-e1a4a2d1cc2c book_isbn=9780439708180 member_id=71304d73-f579-460c-b677-08475984e2cc
+[2025-08-24 18:07:26] INFO: Book reserved | isbn=9780439708180 member_id=71304d73-f579-460c-b677-08475984e2cc reservation_id=ab94dabf-47f3-4ea5-b090-e1a4a2d1cc2c
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Book 1
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Book 1
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780140449136 title=Book 2
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780140449136 title=Book 2
+[2025-08-24 18:09:15] INFO: Member saved | member_id=981249d3-cadf-4adf-98c8-b999f3410b19 name=Member 1
+[2025-08-24 18:09:15] INFO: New member registered | member_id=981249d3-cadf-4adf-98c8-b999f3410b19 name=Member 1
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Book 1
+[2025-08-24 18:09:15] INFO: Loan saved | loan_id=27106095-d96f-47b4-bcf4-4b31c94eedcf book_isbn=9780306406157 member_id=981249d3-cadf-4adf-98c8-b999f3410b19
+[2025-08-24 18:09:15] INFO: Member saved | member_id=981249d3-cadf-4adf-98c8-b999f3410b19 name=Member 1
+[2025-08-24 18:09:15] INFO: Book checked out | isbn=9780306406157 member_id=981249d3-cadf-4adf-98c8-b999f3410b19 loan_id=27106095-d96f-47b4-bcf4-4b31c94eedcf
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Book 1
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Book 1
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780140449136 title=Book 2
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780140449136 title=Book 2
+[2025-08-24 18:09:15] INFO: Member saved | member_id=3a6f692d-6be9-4193-9b33-cbe4cd608804 name=Member 1
+[2025-08-24 18:09:15] INFO: New member registered | member_id=3a6f692d-6be9-4193-9b33-cbe4cd608804 name=Member 1
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Member saved | member_id=4a0c4df0-c1e3-43a1-9d8a-fa5791508e95 name=Test Member
+[2025-08-24 18:09:15] INFO: New member registered | member_id=4a0c4df0-c1e3-43a1-9d8a-fa5791508e95 name=Test Member
+[2025-08-24 18:09:15] INFO: Reservation saved | reservation_id=ca391ab2-e676-4afb-b64d-61fb1a0fe4b6 book_isbn=9780306406157 member_id=4a0c4df0-c1e3-43a1-9d8a-fa5791508e95
+[2025-08-24 18:09:15] INFO: Reservation removed | reservation_id=ca391ab2-e676-4afb-b64d-61fb1a0fe4b6
+[2025-08-24 18:09:15] INFO: Expired reservation removed | reservation_id=ca391ab2-e676-4afb-b64d-61fb1a0fe4b6 book_isbn=9780306406157
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Member saved | member_id=cfdda7e7-5aae-466f-9646-a3bedbd5b23c name=Test Member
+[2025-08-24 18:09:15] INFO: New member registered | member_id=cfdda7e7-5aae-466f-9646-a3bedbd5b23c name=Test Member
+[2025-08-24 18:09:15] INFO: Reservation saved | reservation_id=a89217c7-9353-4efc-a8cc-d6e83ce239e4 book_isbn=9780306406157 member_id=cfdda7e7-5aae-466f-9646-a3bedbd5b23c
+[2025-08-24 18:09:15] INFO: Book reserved | isbn=9780306406157 member_id=cfdda7e7-5aae-466f-9646-a3bedbd5b23c reservation_id=a89217c7-9353-4efc-a8cc-d6e83ce239e4
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Member saved | member_id=592c71a5-890c-4056-a1ff-7e63a59773e4 name=Test Member
+[2025-08-24 18:09:15] INFO: New member registered | member_id=592c71a5-890c-4056-a1ff-7e63a59773e4 name=Test Member
+[2025-08-24 18:09:15] INFO: Reservation saved | reservation_id=891f1b6d-8dfa-4806-9928-602e9e92496b book_isbn=9780306406157 member_id=592c71a5-890c-4056-a1ff-7e63a59773e4
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Member saved | member_id=35349942-b172-4a71-889c-fc853ec1aa77 name=Test Member
+[2025-08-24 18:09:15] INFO: New member registered | member_id=35349942-b172-4a71-889c-fc853ec1aa77 name=Test Member
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Loan saved | loan_id=8456f8a6-96e9-49b4-b08b-3a8e2e9edbf7 book_isbn=9780306406157 member_id=35349942-b172-4a71-889c-fc853ec1aa77
+[2025-08-24 18:09:15] INFO: Member saved | member_id=35349942-b172-4a71-889c-fc853ec1aa77 name=Test Member
+[2025-08-24 18:09:15] INFO: Book checked out | isbn=9780306406157 member_id=35349942-b172-4a71-889c-fc853ec1aa77 loan_id=8456f8a6-96e9-49b4-b08b-3a8e2e9edbf7
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Book removed | isbn=9780306406157
+[2025-08-24 18:09:15] INFO: Book removed | isbn=9780306406157
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=The Great Gatsby
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=The Great Gatsby
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780140449136 title=Crime and Punishment
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780140449136 title=Crime and Punishment
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=The Great Gatsby
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=The Great Gatsby
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780140449136 title=Crime and Punishment
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780140449136 title=Crime and Punishment
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=The Great Gatsby
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=The Great Gatsby
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780140449136 title=Crime and Punishment
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780140449136 title=Crime and Punishment
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=The Great Gatsby
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=The Great Gatsby
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780140449136 title=Crime and Punishment
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780140449136 title=Crime and Punishment
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=The Great Gatsby
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=The Great Gatsby
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780140449136 title=Crime and Punishment
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780140449136 title=Crime and Punishment
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=The Great Gatsby
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=The Great Gatsby
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780140449136 title=Crime and Punishment
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780140449136 title=Crime and Punishment
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Popular Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Popular Book
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780140449136 title=Less Popular Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780140449136 title=Less Popular Book
+[2025-08-24 18:09:15] INFO: Member saved | member_id=78864f4e-f72a-43cc-9ca3-3453abe398a8 name=Member 1
+[2025-08-24 18:09:15] INFO: New member registered | member_id=78864f4e-f72a-43cc-9ca3-3453abe398a8 name=Member 1
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Popular Book
+[2025-08-24 18:09:15] INFO: Loan saved | loan_id=5eeea504-3399-4c75-a556-60f9a0a3d6e0 book_isbn=9780306406157 member_id=78864f4e-f72a-43cc-9ca3-3453abe398a8
+[2025-08-24 18:09:15] INFO: Member saved | member_id=78864f4e-f72a-43cc-9ca3-3453abe398a8 name=Member 1
+[2025-08-24 18:09:15] INFO: Book checked out | isbn=9780306406157 member_id=78864f4e-f72a-43cc-9ca3-3453abe398a8 loan_id=5eeea504-3399-4c75-a556-60f9a0a3d6e0
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Popular Book
+[2025-08-24 18:09:15] INFO: Loan saved | loan_id=5eeea504-3399-4c75-a556-60f9a0a3d6e0 book_isbn=9780306406157 member_id=78864f4e-f72a-43cc-9ca3-3453abe398a8
+[2025-08-24 18:09:15] INFO: Member saved | member_id=78864f4e-f72a-43cc-9ca3-3453abe398a8 name=Member 1
+[2025-08-24 18:09:15] INFO: Book returned | isbn=9780306406157 member_id=78864f4e-f72a-43cc-9ca3-3453abe398a8 late_fee=0
+[2025-08-24 18:09:15] INFO: Member saved | member_id=1d511646-8da0-4e3e-94b4-ba11de753f02 name=Member 2
+[2025-08-24 18:09:15] INFO: New member registered | member_id=1d511646-8da0-4e3e-94b4-ba11de753f02 name=Member 2
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Popular Book
+[2025-08-24 18:09:15] INFO: Loan saved | loan_id=b2280e22-56bc-41c1-b272-d619055c5e34 book_isbn=9780306406157 member_id=1d511646-8da0-4e3e-94b4-ba11de753f02
+[2025-08-24 18:09:15] INFO: Member saved | member_id=1d511646-8da0-4e3e-94b4-ba11de753f02 name=Member 2
+[2025-08-24 18:09:15] INFO: Book checked out | isbn=9780306406157 member_id=1d511646-8da0-4e3e-94b4-ba11de753f02 loan_id=b2280e22-56bc-41c1-b272-d619055c5e34
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780140449136 title=Less Popular Book
+[2025-08-24 18:09:15] INFO: Loan saved | loan_id=033b8a15-0c4d-432b-ad58-05668f45b34a book_isbn=9780140449136 member_id=78864f4e-f72a-43cc-9ca3-3453abe398a8
+[2025-08-24 18:09:15] INFO: Member saved | member_id=78864f4e-f72a-43cc-9ca3-3453abe398a8 name=Member 1
+[2025-08-24 18:09:15] INFO: Book checked out | isbn=9780140449136 member_id=78864f4e-f72a-43cc-9ca3-3453abe398a8 loan_id=033b8a15-0c4d-432b-ad58-05668f45b34a
+[2025-08-24 18:09:15] INFO: Reservation saved | reservation_id=0b49afbe-fb63-4888-8b25-c47b18b2425b book_isbn=9780306406157 member_id=78864f4e-f72a-43cc-9ca3-3453abe398a8
+[2025-08-24 18:09:15] INFO: Book reserved | isbn=9780306406157 member_id=78864f4e-f72a-43cc-9ca3-3453abe398a8 reservation_id=0b49afbe-fb63-4888-8b25-c47b18b2425b
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Popular Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Popular Book
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780140449136 title=Less Popular Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780140449136 title=Less Popular Book
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Member saved | member_id=74b086db-b790-42ee-a11a-cd12a77605f5 name=Test Member
+[2025-08-24 18:09:15] INFO: New member registered | member_id=74b086db-b790-42ee-a11a-cd12a77605f5 name=Test Member
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Loan saved | loan_id=19d2d1d3-8426-4ad1-8c86-d14fd5e84b45 book_isbn=9780306406157 member_id=74b086db-b790-42ee-a11a-cd12a77605f5
+[2025-08-24 18:09:15] INFO: Member saved | member_id=74b086db-b790-42ee-a11a-cd12a77605f5 name=Test Member
+[2025-08-24 18:09:15] INFO: Book checked out | isbn=9780306406157 member_id=74b086db-b790-42ee-a11a-cd12a77605f5 loan_id=19d2d1d3-8426-4ad1-8c86-d14fd5e84b45
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Member saved | member_id=b36aa6bd-eac2-46a3-8747-342071520d38 name=Test Member
+[2025-08-24 18:09:15] INFO: New member registered | member_id=b36aa6bd-eac2-46a3-8747-342071520d38 name=Test Member
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Loan saved | loan_id=637f234a-55de-44ed-a6bd-9e35bbd7960f book_isbn=9780306406157 member_id=b36aa6bd-eac2-46a3-8747-342071520d38
+[2025-08-24 18:09:15] INFO: Member saved | member_id=b36aa6bd-eac2-46a3-8747-342071520d38 name=Test Member
+[2025-08-24 18:09:15] INFO: Book checked out | isbn=9780306406157 member_id=b36aa6bd-eac2-46a3-8747-342071520d38 loan_id=637f234a-55de-44ed-a6bd-9e35bbd7960f
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Member saved | member_id=57069279-973e-4d27-bc58-15a17ee4c7c1 name=Test Member
+[2025-08-24 18:09:15] INFO: New member registered | member_id=57069279-973e-4d27-bc58-15a17ee4c7c1 name=Test Member
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Loan saved | loan_id=e14987fc-c0ca-4930-b547-21270f42adeb book_isbn=9780306406157 member_id=57069279-973e-4d27-bc58-15a17ee4c7c1
+[2025-08-24 18:09:15] INFO: Member saved | member_id=57069279-973e-4d27-bc58-15a17ee4c7c1 name=Test Member
+[2025-08-24 18:09:15] INFO: Book checked out | isbn=9780306406157 member_id=57069279-973e-4d27-bc58-15a17ee4c7c1 loan_id=e14987fc-c0ca-4930-b547-21270f42adeb
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Loan saved | loan_id=e14987fc-c0ca-4930-b547-21270f42adeb book_isbn=9780306406157 member_id=57069279-973e-4d27-bc58-15a17ee4c7c1
+[2025-08-24 18:09:15] INFO: Member saved | member_id=57069279-973e-4d27-bc58-15a17ee4c7c1 name=Test Member
+[2025-08-24 18:09:15] INFO: Book returned | isbn=9780306406157 member_id=57069279-973e-4d27-bc58-15a17ee4c7c1 late_fee=0
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Member saved | member_id=f288eeef-4bd2-4bc5-b037-23d9e7a12e5d name=Test Member
+[2025-08-24 18:09:15] INFO: New member registered | member_id=f288eeef-4bd2-4bc5-b037-23d9e7a12e5d name=Test Member
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Loan saved | loan_id=59ceff9c-b2b2-492b-b4f9-5c6775cae8da book_isbn=9780306406157 member_id=f288eeef-4bd2-4bc5-b037-23d9e7a12e5d
+[2025-08-24 18:09:15] INFO: Member saved | member_id=f288eeef-4bd2-4bc5-b037-23d9e7a12e5d name=Test Member
+[2025-08-24 18:09:15] INFO: Book checked out | isbn=9780306406157 member_id=f288eeef-4bd2-4bc5-b037-23d9e7a12e5d loan_id=59ceff9c-b2b2-492b-b4f9-5c6775cae8da
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Loan saved | loan_id=59ceff9c-b2b2-492b-b4f9-5c6775cae8da book_isbn=9780306406157 member_id=f288eeef-4bd2-4bc5-b037-23d9e7a12e5d
+[2025-08-24 18:09:15] INFO: Member saved | member_id=f288eeef-4bd2-4bc5-b037-23d9e7a12e5d name=Test Member
+[2025-08-24 18:09:15] INFO: Book returned | isbn=9780306406157 member_id=f288eeef-4bd2-4bc5-b037-23d9e7a12e5d late_fee=0
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Member saved | member_id=b6350ac9-c9bf-4c90-b160-86f2fecacb56 name=Test Member
+[2025-08-24 18:09:15] INFO: New member registered | member_id=b6350ac9-c9bf-4c90-b160-86f2fecacb56 name=Test Member
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Loan saved | loan_id=1bb9dbdc-66d4-4cf0-b2af-326d41caa210 book_isbn=9780306406157 member_id=b6350ac9-c9bf-4c90-b160-86f2fecacb56
+[2025-08-24 18:09:15] INFO: Member saved | member_id=b6350ac9-c9bf-4c90-b160-86f2fecacb56 name=Test Member
+[2025-08-24 18:09:15] INFO: Book checked out | isbn=9780306406157 member_id=b6350ac9-c9bf-4c90-b160-86f2fecacb56 loan_id=1bb9dbdc-66d4-4cf0-b2af-326d41caa210
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Member saved | member_id=0afc3254-6667-4b36-b9cf-c97f41649db9 name=Test Member
+[2025-08-24 18:09:15] INFO: New member registered | member_id=0afc3254-6667-4b36-b9cf-c97f41649db9 name=Test Member
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Loan saved | loan_id=9587c297-8f0c-4a8a-9494-4b2f042b18d1 book_isbn=9780306406157 member_id=0afc3254-6667-4b36-b9cf-c97f41649db9
+[2025-08-24 18:09:15] INFO: Member saved | member_id=0afc3254-6667-4b36-b9cf-c97f41649db9 name=Test Member
+[2025-08-24 18:09:15] INFO: Book checked out | isbn=9780306406157 member_id=0afc3254-6667-4b36-b9cf-c97f41649db9 loan_id=9587c297-8f0c-4a8a-9494-4b2f042b18d1
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Loan saved | loan_id=9587c297-8f0c-4a8a-9494-4b2f042b18d1 book_isbn=9780306406157 member_id=0afc3254-6667-4b36-b9cf-c97f41649db9
+[2025-08-24 18:09:15] INFO: Member saved | member_id=0afc3254-6667-4b36-b9cf-c97f41649db9 name=Test Member
+[2025-08-24 18:09:15] INFO: Book returned | isbn=9780306406157 member_id=0afc3254-6667-4b36-b9cf-c97f41649db9 late_fee=0
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Member saved | member_id=53cd41f0-7e40-494e-969f-cecb6d227663 name=Test Member
+[2025-08-24 18:09:15] INFO: New member registered | member_id=53cd41f0-7e40-494e-969f-cecb6d227663 name=Test Member
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Loan saved | loan_id=146f904c-74f3-4f98-8052-b251ba91e558 book_isbn=9780306406157 member_id=53cd41f0-7e40-494e-969f-cecb6d227663
+[2025-08-24 18:09:15] INFO: Member saved | member_id=53cd41f0-7e40-494e-969f-cecb6d227663 name=Test Member
+[2025-08-24 18:09:15] INFO: Book checked out | isbn=9780306406157 member_id=53cd41f0-7e40-494e-969f-cecb6d227663 loan_id=146f904c-74f3-4f98-8052-b251ba91e558
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Member saved | member_id=64bda338-1f6d-4c00-acf0-83292fef7abb name=Test Member
+[2025-08-24 18:09:15] INFO: New member registered | member_id=64bda338-1f6d-4c00-acf0-83292fef7abb name=Test Member
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Loan saved | loan_id=4bacb921-c6ae-437c-bd79-d8213ea12a22 book_isbn=9780306406157 member_id=64bda338-1f6d-4c00-acf0-83292fef7abb
+[2025-08-24 18:09:15] INFO: Member saved | member_id=64bda338-1f6d-4c00-acf0-83292fef7abb name=Test Member
+[2025-08-24 18:09:15] INFO: Book checked out | isbn=9780306406157 member_id=64bda338-1f6d-4c00-acf0-83292fef7abb loan_id=4bacb921-c6ae-437c-bd79-d8213ea12a22
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Loan saved | loan_id=4bacb921-c6ae-437c-bd79-d8213ea12a22 book_isbn=9780306406157 member_id=64bda338-1f6d-4c00-acf0-83292fef7abb
+[2025-08-24 18:09:15] INFO: Member saved | member_id=64bda338-1f6d-4c00-acf0-83292fef7abb name=Test Member
+[2025-08-24 18:09:15] INFO: Book returned | isbn=9780306406157 member_id=64bda338-1f6d-4c00-acf0-83292fef7abb late_fee=60
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Member saved | member_id=d6fa40ab-167f-49ab-b441-66fd45fdf10b name=Test Member
+[2025-08-24 18:09:15] INFO: New member registered | member_id=d6fa40ab-167f-49ab-b441-66fd45fdf10b name=Test Member
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Loan saved | loan_id=49922729-7dd6-4033-926c-d5f0160cab7e book_isbn=9780306406157 member_id=d6fa40ab-167f-49ab-b441-66fd45fdf10b
+[2025-08-24 18:09:15] INFO: Member saved | member_id=d6fa40ab-167f-49ab-b441-66fd45fdf10b name=Test Member
+[2025-08-24 18:09:15] INFO: Book checked out | isbn=9780306406157 member_id=d6fa40ab-167f-49ab-b441-66fd45fdf10b loan_id=49922729-7dd6-4033-926c-d5f0160cab7e
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Member saved | member_id=4ea13ae6-c74f-4084-b0ab-70ef8bb82caf name=Test Member
+[2025-08-24 18:09:15] INFO: New member registered | member_id=4ea13ae6-c74f-4084-b0ab-70ef8bb82caf name=Test Member
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Loan saved | loan_id=fb3c5261-1c11-4b68-a094-1cd138c782ad book_isbn=9780306406157 member_id=4ea13ae6-c74f-4084-b0ab-70ef8bb82caf
+[2025-08-24 18:09:15] INFO: Member saved | member_id=4ea13ae6-c74f-4084-b0ab-70ef8bb82caf name=Test Member
+[2025-08-24 18:09:15] INFO: Book checked out | isbn=9780306406157 member_id=4ea13ae6-c74f-4084-b0ab-70ef8bb82caf loan_id=fb3c5261-1c11-4b68-a094-1cd138c782ad
+[2025-08-24 18:09:15] INFO: Member saved | member_id=ce5f3211-a6da-423b-a4c8-10c8ff3e31e6 name=Another Member
+[2025-08-24 18:09:15] INFO: New member registered | member_id=ce5f3211-a6da-423b-a4c8-10c8ff3e31e6 name=Another Member
+[2025-08-24 18:09:15] INFO: Reservation saved | reservation_id=43f8b3bc-9dae-47b1-a90c-ee7d1911568b book_isbn=9780306406157 member_id=ce5f3211-a6da-423b-a4c8-10c8ff3e31e6
+[2025-08-24 18:09:15] INFO: Book reserved | isbn=9780306406157 member_id=ce5f3211-a6da-423b-a4c8-10c8ff3e31e6 reservation_id=43f8b3bc-9dae-47b1-a90c-ee7d1911568b
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Loan saved | loan_id=fb3c5261-1c11-4b68-a094-1cd138c782ad book_isbn=9780306406157 member_id=4ea13ae6-c74f-4084-b0ab-70ef8bb82caf
+[2025-08-24 18:09:15] INFO: Member saved | member_id=4ea13ae6-c74f-4084-b0ab-70ef8bb82caf name=Test Member
+[2025-08-24 18:09:15] INFO: Reservation saved | reservation_id=43f8b3bc-9dae-47b1-a90c-ee7d1911568b book_isbn=9780306406157 member_id=ce5f3211-a6da-423b-a4c8-10c8ff3e31e6
+[2025-08-24 18:09:15] INFO: Reservation fulfilled | reservation_id=43f8b3bc-9dae-47b1-a90c-ee7d1911568b book_isbn=9780306406157
+[2025-08-24 18:09:15] INFO: Book returned | isbn=9780306406157 member_id=4ea13ae6-c74f-4084-b0ab-70ef8bb82caf late_fee=0
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Member saved | member_id=7a4645a3-108c-4828-9488-a4277573f737 name=Test Member
+[2025-08-24 18:09:15] INFO: New member registered | member_id=7a4645a3-108c-4828-9488-a4277573f737 name=Test Member
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Loan saved | loan_id=b589fe58-2cd3-4a1f-b08c-81315d5326fb book_isbn=9780306406157 member_id=7a4645a3-108c-4828-9488-a4277573f737
+[2025-08-24 18:09:15] INFO: Member saved | member_id=7a4645a3-108c-4828-9488-a4277573f737 name=Test Member
+[2025-08-24 18:09:15] INFO: Book checked out | isbn=9780306406157 member_id=7a4645a3-108c-4828-9488-a4277573f737 loan_id=b589fe58-2cd3-4a1f-b08c-81315d5326fb
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Member saved | member_id=4b0854dc-56bf-41d0-8e7a-9ecfc7513811 name=Test Member
+[2025-08-24 18:09:15] INFO: New member registered | member_id=4b0854dc-56bf-41d0-8e7a-9ecfc7513811 name=Test Member
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Loan saved | loan_id=83c9e818-11e0-478e-92ae-763154daa02b book_isbn=9780306406157 member_id=4b0854dc-56bf-41d0-8e7a-9ecfc7513811
+[2025-08-24 18:09:15] INFO: Member saved | member_id=4b0854dc-56bf-41d0-8e7a-9ecfc7513811 name=Test Member
+[2025-08-24 18:09:15] INFO: Book checked out | isbn=9780306406157 member_id=4b0854dc-56bf-41d0-8e7a-9ecfc7513811 loan_id=83c9e818-11e0-478e-92ae-763154daa02b
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Member saved | member_id=5ccc30fc-902f-436a-9fc0-2d78157b0efa name=Test Member
+[2025-08-24 18:09:15] INFO: New member registered | member_id=5ccc30fc-902f-436a-9fc0-2d78157b0efa name=Test Member
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Member saved | member_id=d2771bdf-bbde-4795-b740-7989cfe16380 name=Test Member
+[2025-08-24 18:09:15] INFO: New member registered | member_id=d2771bdf-bbde-4795-b740-7989cfe16380 name=Test Member
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Loan saved | loan_id=fe6574c8-fe97-4d38-879b-27af93dbd2ad book_isbn=9780306406157 member_id=d2771bdf-bbde-4795-b740-7989cfe16380
+[2025-08-24 18:09:15] INFO: Member saved | member_id=d2771bdf-bbde-4795-b740-7989cfe16380 name=Test Member
+[2025-08-24 18:09:15] INFO: Book checked out | isbn=9780306406157 member_id=d2771bdf-bbde-4795-b740-7989cfe16380 loan_id=fe6574c8-fe97-4d38-879b-27af93dbd2ad
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Member saved | member_id=c8276937-4640-45b5-a4f1-23ae5dd108a1 name=Test Member
+[2025-08-24 18:09:15] INFO: New member registered | member_id=c8276937-4640-45b5-a4f1-23ae5dd108a1 name=Test Member
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Loan saved | loan_id=63ca53a9-635a-4631-b536-2419c1fa70f2 book_isbn=9780306406157 member_id=c8276937-4640-45b5-a4f1-23ae5dd108a1
+[2025-08-24 18:09:15] INFO: Member saved | member_id=c8276937-4640-45b5-a4f1-23ae5dd108a1 name=Test Member
+[2025-08-24 18:09:15] INFO: Book checked out | isbn=9780306406157 member_id=c8276937-4640-45b5-a4f1-23ae5dd108a1 loan_id=63ca53a9-635a-4631-b536-2419c1fa70f2
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Loan saved | loan_id=66c1c0de-3546-4a17-9244-393e4446f8b8 book_isbn=9780306406157 member_id=c8276937-4640-45b5-a4f1-23ae5dd108a1
+[2025-08-24 18:09:15] INFO: Member saved | member_id=c8276937-4640-45b5-a4f1-23ae5dd108a1 name=Test Member
+[2025-08-24 18:09:15] INFO: Book checked out | isbn=9780306406157 member_id=c8276937-4640-45b5-a4f1-23ae5dd108a1 loan_id=66c1c0de-3546-4a17-9244-393e4446f8b8
+[2025-08-24 18:09:15] INFO: Reservation saved | reservation_id=84c2fab8-6c11-4ff2-a197-fc416b042c30 book_isbn=9780306406157 member_id=c8276937-4640-45b5-a4f1-23ae5dd108a1
+[2025-08-24 18:09:15] INFO: Book reserved | isbn=9780306406157 member_id=c8276937-4640-45b5-a4f1-23ae5dd108a1 reservation_id=84c2fab8-6c11-4ff2-a197-fc416b042c30
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=The Great Gatsby
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=The Great Gatsby
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=The Great Gatsby
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=The Great Gatsby
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=The Great Gatsby
+[2025-08-24 18:09:15] INFO: Added copies to existing book | isbn=9780306406157 copies_added=1
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Member saved | member_id=09f8a51c-79bf-4893-a574-18f25391a268 name=John Doe
+[2025-08-24 18:09:15] INFO: New member registered | member_id=09f8a51c-79bf-4893-a574-18f25391a268 name=John Doe
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Member saved | member_id=6f1eb830-e447-4d8a-b3b7-974b122c6319 name=Test Member
+[2025-08-24 18:09:15] INFO: New member registered | member_id=6f1eb830-e447-4d8a-b3b7-974b122c6319 name=Test Member
+[2025-08-24 18:09:15] INFO: Reservation saved | reservation_id=5fddeae2-496a-4c0e-b90f-0a187c57f3ba book_isbn=9780306406157 member_id=6f1eb830-e447-4d8a-b3b7-974b122c6319
+[2025-08-24 18:09:15] INFO: Book reserved | isbn=9780306406157 member_id=6f1eb830-e447-4d8a-b3b7-974b122c6319 reservation_id=5fddeae2-496a-4c0e-b90f-0a187c57f3ba
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Member saved | member_id=81270c79-a80b-4107-96c0-19dfdb694340 name=Test Member
+[2025-08-24 18:09:15] INFO: New member registered | member_id=81270c79-a80b-4107-96c0-19dfdb694340 name=Test Member
+[2025-08-24 18:09:15] INFO: Reservation saved | reservation_id=e7700ffb-3d15-42a1-99a4-ea10863f8080 book_isbn=9780306406157 member_id=81270c79-a80b-4107-96c0-19dfdb694340
+[2025-08-24 18:09:15] INFO: Book reserved | isbn=9780306406157 member_id=81270c79-a80b-4107-96c0-19dfdb694340 reservation_id=e7700ffb-3d15-42a1-99a4-ea10863f8080
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: Member saved | member_id=5d1c166f-b04d-410c-840b-c328eba3e0a1 name=Test Member
+[2025-08-24 18:09:15] INFO: New member registered | member_id=5d1c166f-b04d-410c-840b-c328eba3e0a1 name=Test Member
+[2025-08-24 18:09:15] INFO: Library system initialized
+[2025-08-24 18:09:15] INFO: Book saved | isbn=9780306406157 title=Test Book
+[2025-08-24 18:09:15] INFO: New book added | isbn=9780306406157 title=Test Book
