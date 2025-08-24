@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+
+gem 'rspec', '~> 3.12'
+gem 'json', '~> 2.6'
+
+group :development, :test do
+  gem 'rspec-mocks', '~> 3.12'
+end
